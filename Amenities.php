@@ -1,6 +1,6 @@
 <?php
-    $pageName = 'Amenities';
-    $cssName = "Amenities";
+    $pageName = 'amenities';
+    $cssName = "amenities";
     include("assets/inc/header.php");
 ?>
     <!--Content-->

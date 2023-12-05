@@ -1,6 +1,6 @@
 <?php
     $pageName = 'Alexandria Bay';
-    $cssName = "ABay";
+    $cssName = "abay";
     include("assets/inc/header.php");
 ?>
 

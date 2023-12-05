@@ -1,6 +1,6 @@
 <?php
     $pageName = "Uncle Sam's Boat Tours";
-    $cssName = "UncSam";
+    $cssName = "uncsam";
     include("assets/inc/header.php");
 ?>  
 
