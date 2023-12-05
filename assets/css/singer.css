@@ -1,0 +1,146 @@
+/*Link Settings*/
+a:link {
+	color: #4A4844;
+}
+
+a:visited {
+	color: #1f3bb8;
+}
+
+a:hover {
+	color: rgb(0, 0, 0);
+}
+
+a:active {
+	color: grey;
+}
+
+/*Font Settings*/
+@font-face {
+    font-family: "Alegreya";
+    src: url("fonts/AlegreyaSC-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Antic";
+    src: url("fonts/Antic-Regular.ttf") format('truetype');
+}
+
+/*Dropdown + Nav Settings*/
+.dropdown ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    font-size: 20px;
+
+    margin: 0px;
+    padding: 0px;
+
+    background: #CDC2AE;
+    color:#696B70;
+}
+
+.dropdown li{
+    padding: 20px;
+    position: relative;
+}
+
+.dropdown .submenu{
+    position: absolute;
+    background:#CDC2AE;
+    top:37px;
+
+    visibility:hidden;
+
+    transition: .5s;
+    text-align: center;
+}
+
+.dropdown li:hover{
+    background:#e7c4a3;
+}
+
+.dropdown li:hover .submenu{
+    visibility:visible;
+}
+
+.dropdown{
+    grid-area: Nav;
+}
+
+/*Header Settings*/
+header{
+    background-color: #354259;
+    color:#f3f2f0;
+    font-family: Alegreya;
+    grid-area: Head;
+    text-align:center;
+    margin-bottom: 0;
+}
+
+h1{
+    font-size:30px;
+}
+
+header h3{
+    font-size: 20px;
+}
+
+body{ /*Formatting for Header and Nav*/
+    margin: 0;
+    background-color: #ECE5C7;
+    display: grid;
+    grid-template-areas:"Nav Nav Nav" 
+                        "Head Head Head";
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Page Content*/
+.singerpic img{
+    width:100vw;
+}
+.Fbourne{
+    float: right;
+    padding-right: 10vw;
+}
+p{
+    font-family: Antic;
+    font-size: 20px;
+    margin: 0 35vw 0 10vw;
+}
+
+div h3{
+    font-family: Antic;
+    margin:1vw 35vw 1vw 10vw;
+}
+
+.getThere{
+    padding-top: .5vw;
+}
+
+.Attractions{
+    margin-bottom: 3vw;
+}
+
+/*Tablets and Phones*/
+@media screen and (max-width:800px){
+    .Fbourne {
+        display:none;
+    }
+
+    p{
+        text-align: center;
+        padding: 1vw 5vw 1vw 5vw;
+        margin:auto;
+    }
+
+    div h3{
+        text-align: center;
+        padding-top:3vw;
+        margin:auto;
+    }
+}
