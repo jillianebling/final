@@ -92,7 +92,13 @@ body{ /*Formatting for Header and Nav*/
     display: grid;
     grid-template-areas:"Nav Nav Nav" 
                         "Head Head Head"
-                        "LgPic LgPic LgPic";
+                        "LgPic LgPic LgPic"
+                        "Content Content Content"
+                        "Foot Foot Foot";
+}
+
+.content{
+    grid-area: Content;
 }
 
 a{

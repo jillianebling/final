@@ -92,7 +92,9 @@ body{ /*Formatting for Header and Nav*/
     background-color: #ECE5C7;
     display: grid;
     grid-template-areas:"Nav Nav Nav" 
-                        "Head Head Head";
+                        "Head Head Head"
+                        "Content Content Content"
+                        "Foot Foot Foot";
 }
 
 a{
@@ -117,6 +119,10 @@ p{
     font-family: Antic;
 }
 
+.content p{
+    
+}
+
 .map{
     width: 30vw;
     padding: 3vw 3vw 3vw 0vw;
@@ -138,7 +144,7 @@ p{
         width: 40vw;
         margin: 3vw 30vw 3vw 30vw;
     }
-    p{
+    .content p{
         margin: 3vw 5vw 3vw 5vw;
     }
 }

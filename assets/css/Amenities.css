@@ -93,7 +93,9 @@ body{ /*Formatting for Header and Nav*/
     display: grid;
     grid-template-areas:"Nav Nav Nav" 
                         "Head Head Head"
-                        "LgPic LgPic LgPic";
+                        "LgPic LgPic LgPic"
+                        "Content Content Content"
+                        "Foot Foot Foot";
 }
 
 a{
@@ -107,6 +109,11 @@ a{
 .lgpic img{
     width: 100vw;
 }
+
+.content{
+    grid-area: Content;
+}
+
 p{
     font-family: Antic;
     font-size: 20px;
@@ -119,11 +126,11 @@ div h3{
 }
 
 .overview{
-    padding-top: .5vw;
+    padding-top: 5vw;
 }
 
 .cc{
-    margin-bottom: 3vw;
+    margin-bottom: 8vw;
 }
 
 /*Mobile*/

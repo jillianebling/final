@@ -92,7 +92,9 @@ body{ /*Formatting for Header and Nav*/
     background-color: #ECE5C7;
     display: grid;
     grid-template-areas:"Nav Nav Nav" 
-                        "Head Head Head";
+                        "Head Head Head"
+                        "Content Content Content"
+                        "Foot Foot Foot";
 }
 
 a{
@@ -100,6 +102,11 @@ a{
 }
 
 /*Page Content*/
+.content{
+    grid-area: Content;
+    padding-bottom: 5vw;
+}
+
 .img, .others{
     font-size:18px;
     padding-left: 5vw;

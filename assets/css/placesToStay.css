@@ -92,11 +92,17 @@ body{ /*Formatting for Header and Nav*/
     background-color: #ECE5C7;
     display: grid;
     grid-template-areas:"Nav Nav Nav" 
-                        "Head Head Head";
+                        "Head Head Head"
+                        "Content Content Content"
+                        "Foot Foot Foot";
 }
 
 a{
     text-decoration: none;
+}
+
+.content{
+    grid-area: Content;
 }
 
 /*Page Content*/

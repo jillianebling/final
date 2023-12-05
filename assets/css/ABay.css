@@ -92,6 +92,7 @@ body{ /*Formatting for Header and Nav*/
     display: grid;
     grid-template-areas:"Nav Nav Nav" 
                         "Head Head Head"
+                        "Content Content Content"
                         "Foot Foot Foot";
 }
 
@@ -99,8 +100,8 @@ a{
     text-decoration: none;
 }
 
-footer{
-    grid-area: Foot;
+.content{
+    grid-area: Content;
 }
 
 /*Page Content*/

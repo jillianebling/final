@@ -93,7 +93,9 @@ body{ /*Formatting for Header and Nav*/
     display: grid;
     grid-template-areas:"Nav Nav Nav" 
                         "Head Head Head"
-                        "LgPic LgPic LgPic";
+                        "LgPic LgPic LgPic"
+                        "Content Content Content"
+                        "Foot Foot Foot";
 }
 
 a{
@@ -101,6 +103,11 @@ a{
 }
 
 /*Page Content*/
+
+.content{
+    grid-area: Content;
+}
+
 .castlepic{
     grid-area: LgPic;
 }
