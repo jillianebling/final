@@ -26,3 +26,9 @@
             <p>Uncle Sam’s touring prices are as follows: Two Nation Tour - Adults $28.50 - Children $17.50 Singer Castle Tour - Adults $45.75 - Children $27.50 One Hour Tour - Adults $22.25 - Children $13.75 Sip N’ Sail - Adults $19.50 - Children $12.00 Boldt Castle Ferry (one way) - Adults $10.00 - Children $6.50 Hours: 10:30 am - 5 pm; May 13th - October 9th.</p>
         </div>
     </div>
+
+    <?php
+        include("assets/inc/footer.php");
+    ?>
+</body>
+</html>

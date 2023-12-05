@@ -16,27 +16,27 @@
             <li>
                 <a>Tourist Attractions</a>
                 <ul class="submenu">
-                    <li><a href="Boldt.php">Boldt Castle</a></li>
-                    <li><a href="Singer.php">Singer Castle</a></li>
-                    <li><a href="ABay.php">Alexandria Bay</a></li>
-                    <li><a href="UncSam.php">Uncle Sam Boat Tours</a></li>
+                    <li><a href="boldt.php">Boldt Castle</a></li>
+                    <li><a href="singer.php">Singer Castle</a></li>
+                    <li><a href="abay.php">Alexandria Bay</a></li>
+                    <li><a href="uncsam.php">Uncle Sam Boat Tours</a></li>
                 </ul>
             </li>
             <li>
                 <a>At The Parks</a>
                 <ul class="submenu">
-                    <li><a href="PlacesToStay.php">Places To Stay</a></li>
-                    <li><a href="Trails.php">Trails</a></li>
-                    <li><a href="Amenities.php">Park Amenities</a></li>
-                    <li><a href="Attractions.php">Park Attractions</a></li>
+                    <li><a href="placestostay.php">Places To Stay</a></li>
+                    <li><a href="trails.php">Trails</a></li>
+                    <li><a href="amenities.php">Park Amenities</a></li>
+                    <li><a href="attractions.php">Park Attractions</a></li>
                 </ul>
             </li>
-            <li><a href="Resturaunts.php">Resturaunts</a></li> 
+            <li><a href="resturaunts.php">Resturaunts</a></li> 
             <li>
                 <a>Extras</a>
                 <ul class="submenu">
-                    <li><a href="Sources.php">Sources</a></li>
-                    <li><a href="Grading.php">Grading</a></li>
+                    <li><a href="sources.php">Sources</a></li>
+                    <li><a href="grading.php">Grading</a></li>
                 </ul>
             </li> 
            

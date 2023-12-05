@@ -56,5 +56,10 @@
             <p>Tuesday - Saturday 8 am - 8 pm</p>
         </div>
     </div>
+
+    <?php
+        include("assets/inc/footer.php");
+    ?>
+    
 </body>
 </html>

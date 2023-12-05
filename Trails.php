@@ -15,5 +15,9 @@
             <img class="map" src="assets/media/images/WellesleyIslandTrailMap.jpg" alt="Map of Wellesley Island and Surrounding Area">
         </div>    
     </div>    
+
+    <?php
+        include("assets/inc/footer.php");
+    ?>
 </body>
 </html>

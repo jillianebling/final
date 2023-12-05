@@ -18,5 +18,8 @@
         </div>    
         <img class="map2" src="assets/media/images/colormap.jpg" alt="Map of Wellesley Island and Surrounding Area">
     </div>
+    <?php
+        include("assets/inc/footer.php");
+    ?>
 </body>
 </html>

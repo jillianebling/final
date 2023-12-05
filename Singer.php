@@ -31,3 +31,9 @@
             <p>Singer castle has barely been modified from its original state. All rooms are furnished with period-appropriate pieces. The castle includes a gift shop, where guests can purchase Singer Castle-themed merchandise. Guests can also book a stay at the Singer Castle Suite. A stay here includes a meal and tea, and even a bottle of wine from the castle’s wine cellar.</p>
         </div>
     </div>
+
+    <?php
+        include("assets/inc/footer.php");
+    ?>
+</body>
+</html>

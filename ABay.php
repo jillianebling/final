@@ -28,3 +28,9 @@
             <p>Gift shops take up a majority of the stores along the downtown strip. Most of these shops sell Alexandria Bay and 1000 Island-themed clothes. All of these stores are fun to browse through, many of them have interesting trinkets, but a few stand out. Good Dog Charlie’s is a unique shop that sells items with its branding on it; however, what stands out about the store is the mini cafe inside. The whole store smells of fresh espresso and toffee, and the treats they sell are excellent. La Boutique is another one of the more notable stores in Alex Bay. They sell the basics but also dabble in wood art. There is a large section of the store dedicated to various types of logs engraved or painted with images of various recognizable woodland animals, and sometimes even fairies.</p>
         </div>
     </div>
+
+    <?php
+        include("assets/inc/footer.php");
+    ?>
+</body>
+</html>

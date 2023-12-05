@@ -34,5 +34,9 @@
             <p>Heat and cooling are generally not available within the parks. Of course, cottages come with a wood stove heater, but outside of that visitors are expected to bring fans or small heaters to keep them warm. Of course, campfires are always allowed as long as they are inside of the firepits provided.</p>
         </div>
     </div>
+
+    <?php
+        include("assets/inc/footer.php");
+    ?>
 </body>
 </html>
