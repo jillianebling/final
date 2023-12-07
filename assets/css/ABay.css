@@ -100,11 +100,30 @@ a{
     text-decoration: none;
 }
 
+/*Footer Settings*/
+footer{
+    background-color: #354259;
+    color: #f3f2f0;
+    
+    text-align: left;
+    align-content: left;
+    
+    width: 100%;
+    bottom: 0;
+
+    grid-area: Foot;
+}
+
+footer p{
+    margin: 0vw 2vw 0vw 2vw;
+    font-size: 12px;
+}
+
+/*Page Content*/
 .content{
     grid-area: Content;
 }
 
-/*Page Content*/
 .baypic img{
     width:100vw;
     height:30vw;
