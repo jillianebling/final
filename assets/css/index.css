@@ -69,6 +69,25 @@ a:active {
     grid-area: Nav;
 }
 
+/*Footer Settings*/
+footer{
+    background-color: #354259;
+    color: #f3f2f0;
+    
+    text-align: left;
+    align-content: left;
+    
+    width: 100%;
+    bottom: 0;
+
+    grid-area: Foot;
+}
+
+footer p{
+    padding: .5vw;
+    font-size: 12px;
+}
+
 /*Header Settings*/
 header{
     background-color: #354259;
@@ -117,10 +136,6 @@ a{
 p{
     margin: 3vw 0vw 0vw 3vw;
     font-family: Antic;
-}
-
-.content p{
-    
 }
 
 .map{
