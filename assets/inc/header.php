@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href= <?php echo "assets/css/".$cssName.".css"; ?> rel="stylesheet" type="text/css">
+    <script src="assets/scripts/clean.js"></script>
     <title><?php echo "Wellesley Island and Alexandria Bay - ".$pageName; ?></title>
 </head>
 
@@ -32,6 +33,7 @@
                 </ul>
             </li>
             <li><a href="resturaunts.php">Resturaunts</a></li> 
+            <li><a href="comments.php">Comments</a></li>
             <li>
                 <a>Extras</a>
                 <ul class="submenu">
@@ -39,7 +41,6 @@
                     <li><a href="grading.php">Grading</a></li>
                 </ul>
             </li> 
-           
         </ul>
     </nav>
 

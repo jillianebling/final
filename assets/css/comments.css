@@ -1,0 +1,182 @@
+/*Link Settings*/
+a:link {
+	color: #4A4844;
+}
+
+a:visited {
+	color: #1f3bb8;
+}
+
+a:hover {
+	color: rgb(0, 0, 0);
+}
+
+a:active {
+	color: grey;
+}
+
+/*Font Settings*/
+@font-face {
+    font-family: "Alegreya";
+    src: url("fonts/AlegreyaSC-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Antic";
+    src: url("fonts/Antic-Regular.ttf") format('truetype');
+}
+
+/*Dropdown + Nav Settings*/
+.dropdown ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    font-size: 20px;
+
+    margin: 0px;
+    padding: 0px;
+
+    background: #CDC2AE;
+    color:#696B70;
+}
+
+.dropdown li{
+    padding: 20px;
+    position: relative;
+}
+
+.dropdown .submenu{
+    position: absolute;
+    background:#CDC2AE;
+    top:37px;
+
+    visibility:hidden;
+
+    transition: .5s;
+    text-align: center;
+}
+
+.dropdown li:hover{
+    background:#e7c4a3;
+}
+
+.dropdown li:hover .submenu{
+    visibility:visible;
+}
+
+.dropdown{
+    grid-area: Nav;
+}
+
+/*Footer Settings*/
+footer{
+    background-color: #354259;
+    color: #f3f2f0;
+    
+    text-align: left;
+    align-content: left;
+    
+    width: 100%;
+    bottom: 0;
+
+    grid-area: Foot;
+}
+
+footer p{
+    margin: 0vw 2vw 0vw 2vw;
+    font-size: 12px;
+}
+
+/*Header Settings*/
+header{
+    background-color: #354259;
+    color:#f3f2f0;
+    font-family: Alegreya;
+    grid-area: Head;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+h1{
+    font-size:30px;
+}
+
+header h3{
+    font-size: 20px;
+}
+
+body{ /*Formatting for Header and Nav*/
+    margin: 0;
+    background-color: #ECE5C7;
+    display: grid;
+    grid-template-areas:"Nav Nav Nav" 
+                        "Head Head Head"
+                        "Img Img Img"
+                        "Content Content Content"
+                        "Foot Foot Foot";
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Page Content*/
+.content{
+    grid-area: Content;
+}
+
+.formcont{
+    align-items: center;
+    float: right;
+    font-family: Antic;
+
+    margin: 0 10vw 0 0;
+}
+.list{
+    float:left;
+    margin: 0 2vw 0 5vw;
+}
+
+.subbutt{
+    background-color: #5575ad;
+    color: #f3f2f0;
+    font-family: Antic;
+
+    margin-left: 9vw;
+}
+
+.date{
+    font-weight:lighter;
+    display:inline;
+
+    font-size: 12px;
+
+    margin: 0 0 0 0;
+}
+
+.naturepic img{
+    width: 100vw;
+    height: 35vw;
+    grid-area: Img;
+ 
+}
+.overview{
+    font-size:22px;
+    line-height: 150%;
+    display:flex;
+    gap: 3vw;
+}
+
+p{
+    margin: 3vw 0vw 0vw 3vw;
+    font-family: Antic;
+}
+/*Responsive Design*/
+
+/*Tablets*/
+@media screen and (max-width: 600px) {
+    .content p{
+        margin: 3vw 5vw 3vw 5vw;
+    }
+}
