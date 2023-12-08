@@ -8,7 +8,6 @@
 </head>
 
 <body>
-
     <!--Navigation Bar-->
     <nav class="dropdown">
         <ul>

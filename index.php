@@ -5,9 +5,7 @@
 ?>  
     <!--Content-->
     <div class="content">
-        <div class="naturepic">
-            <img src="assets/media/images/1000-Islands-Cangeo-8-scaled.jpg" alt="1000 Island Bridge at Sunset">
-        </div>
+        <?php include("assets/inc/slideshow.php");?>
         <div class="overview">
             <p> 
             Upstate New York is home to one of the most beautiful state parks in the region. Wellesley Island is an immensely popular destination for tourists and campers alike. Campers can enjoy a trip within their comfort level, choosing from many islands, basic campsites, cottages, and fully-furnished cabins. The park also provides opportunities to enjoy the outdoors with a wide range of trails and activities to choose from. Although there are many state parks in the 1000 Islands region, Wellesley Island is the largest, and the most sought after by campers.
