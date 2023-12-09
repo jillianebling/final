@@ -143,6 +143,7 @@ a{
 .slides img {
   height: 35vw; 
   width: 100%;
+  transition: .5s;
 }
 
 .prev, .next {

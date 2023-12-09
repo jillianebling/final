@@ -43,11 +43,6 @@
 ?> 
     <!--Content-->
     <div class="content">
-        <?php include("assets/inc/slideshow.php");?>
-            <br/>
-            <br/>
-            <br/>
-
         <div id="list" class="list">
             <!-- Display the Comments -->
                 <ul>

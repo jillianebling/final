@@ -1,11 +1,12 @@
 var current = 1;
-manageSlides(current);
+
+document.addEventListener("DOMContentLoaded",nextSlide(current)); //DOM
 
 function changeSlide(prevonex) {
-    manageSlides(current+= prevonex);
+    nextSlide(current+= prevonex);
 }
 
-function manageSlides(index) {
+function nextSlide(index) {
     var slides=document.getElementsByClassName("slides");
     if (index>slides.length) {
         current= 1;
