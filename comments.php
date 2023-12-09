@@ -13,7 +13,7 @@
         return substr($str,0,$length);
     }
 
-    if(!empty($_GET['from']) && !empty($_GET['message']) && !empty($_GET['email'])){
+    if(!empty($_GET['from']) && !empty($_GET['message']) && !empty($_GET['email']) && !empty($_GET['captcha'])){
         //sanitize
         $from=sanitize($_GET['from']);
         $message=sanitize($_GET['message']);
@@ -76,7 +76,7 @@
                     <!--Captcha in Form-->
                     <div id="user-input">
                         <!--User txt-->
-                        Your Captcha:<input type="text" id="submit"/>
+                        Your Captcha:<input type="text" id="submit" name="captcha"/>
                     </div>
 
                     <!--captcha holder-->
