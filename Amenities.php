@@ -5,10 +5,7 @@
 ?>
     <!--Content-->
     <div class="content">
-        <div class="lgpic">
-            <img src="assets/media/images/1000-Islands-Cangeo-9-scaled.jpg" alt="Wellesley Park">
-        </div>
-
+        <?php include("assets/inc/slideshow.php");?>
         <div class="overview">
             <h3>About</h3>
             <p>Wellesley Island provides a wide range of amenities depending on where you are camping.</p>

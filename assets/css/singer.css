@@ -26,6 +26,41 @@ a:active {
     src: url("fonts/Antic-Regular.ttf") format('truetype');
 }
 
+/*Settings for Slideshow*/
+.next {
+    right: 0;
+  }
+
+.prev{
+    left: 0;
+  }
+
+.prev:hover, .next:hover {
+    background-color: black;
+    opacity: .5;
+}
+
+.slides {
+  display: none;
+  box-sizing: border-box;
+}
+
+.slides img {
+  height: 35vw; 
+  width: 100%;
+}
+
+.prev, .next {
+  font-weight: bold;
+  font-size: 20px;
+  color:#FFFFFF;
+
+  position: absolute;
+  top: 30vw;
+  padding: 16px;
+}
+
+
 /*Dropdown + Nav Settings*/
 .dropdown ul{
     display: flex;

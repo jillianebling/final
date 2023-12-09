@@ -6,10 +6,7 @@
     
     <!--Content-->
     <div class="content">
-        <div>
-            <img class="camppic" src="assets/media/images/new-york-wellesley-island-state-park_04b2031c5fd201ef3a0c85bc78ab704e.jpg" alt="Campsite on Wellesley">
-        </div>
-
+    <?php include("assets/inc/slideshow.php");?>
         <div class="overview">
             <h3>About</h3>
             <img class="actmap" src="assets/media/images/campmap-wellesleyisland2015.jpg" alt="Map of Wellesley Island Campsites">

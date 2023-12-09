@@ -6,10 +6,7 @@
 
     <!--Content-->
     <div class="content">
-        <div class="lgpic">
-            <img src="assets/media/images/natcenter.jpg" alt="Wellesley Park Nature Center">
-        </div>
-
+        <?php include("assets/inc/slideshow.php");?>
         <div class="bhouse">
             <img class="beachpic" src="assets/media/images/beach.jpg" alt="Wellesley Park Beach">
             <h3>The Butterfly House</h3>

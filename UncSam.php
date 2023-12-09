@@ -6,9 +6,7 @@
 
     <!--Content-->
     <div class="content">
-        <div class="boatpic">
-            <img src="assets/media/images/2boat-1060x400-1.jpg" alt="Uncle Sam Boats">
-        </div>
+    <?php include("assets/inc/slideshow.php");?>
 
         <div class="abt">
             <h3>About</h3>

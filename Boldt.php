@@ -6,9 +6,7 @@
 
     <!--Content-->
     <div class="content">
-        <div class="castlepic">
-            <img src="assets/media/images/boldtcastle.jpg" alt="Boldt Castle">
-        </div>
+        <?php include("assets/inc/slideshow.php");?>
 
         <div class="getThere">
             <img class="GBoldt" src="assets/media/images/georgeboldt1.jpg" alt="George Boldt">

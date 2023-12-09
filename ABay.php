@@ -6,10 +6,7 @@
 
     <!--Content-->
     <div class="content">
-        <div class="baypic">
-            <img src="assets/media/images/abaydocks.jpg" alt="Upper Docks Alex Bay, NY">
-        </div>
-
+        <?php include("assets/inc/slideshow.php");?>
         <div class="abt">
             <h3>About</h3>
             <figure class="sunkship">

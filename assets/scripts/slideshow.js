@@ -1,20 +1,22 @@
-var counter = 1;
-slideShow(counter);
+var current = 1;
+manageSlides(current);
 
-function plusSlides(num) {
-  slideShow(counter += num);
+function changeSlide(prevonex) {
+    manageSlides(current+= prevonex);
 }
 
-function slideShow(num) {
-  var slides = document.getElementsByClassName("slides");
-  if (num>slides.length){
-        index=1
+function manageSlides(index) {
+    var slides=document.getElementsByClassName("slides");
+    if (index>slides.length) {
+        current= 1;
     }    
-  if(num<1){
-        counter= slides.length
+    if (index<1) {
+        current=slides.length;
     }
-  for (i=0; i<slides.length;i++) {
-    slides[i].style.display = "none";  
-  }
-  slides[counter-1].style.display = "block";  
+    for (var i= 0;i<slides.length;i++) {
+        slides[i].style.display= "none";  
+    }
+    slides[current-1].style.display= "block";  
 }
+
+setInterval(function(){changeSlide(1);}, 5000); //built in func; changes slides every 5 seconds

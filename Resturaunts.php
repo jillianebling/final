@@ -6,10 +6,7 @@
 
     <!--Content-->
     <div class="content">
-
-        <div class="lgpic">
-            <img src="assets/media/images/dining-header.jpg" alt="Riveredge dining">
-        </div>
+    <?php include("assets/inc/slideshow.php");?>
 
         <div class="admirals">
             <h3><a href="https://www.facebook.com/pages/Admirals-Inn/433772523300418">Admiral's Inn</a></h3>

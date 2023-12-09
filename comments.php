@@ -43,10 +43,7 @@
 ?> 
     <!--Content-->
     <div class="content">
-            <div class="naturepic">
-                <img src="assets/media/images/1000-Islands-Cangeo-2-scaled.jpg" alt="Canoeing on the St. Lawrence">
-            </div>
-
+        <?php include("assets/inc/slideshow.php");?>
             <br/>
             <br/>
             <br/>

@@ -6,9 +6,7 @@
 
     <!--Content-->
     <div class="content">
-        <div class="singerpic">
-            <img src="assets/media/images/singercastle.jpg" alt="Singer Castle">
-        </div>
+    <?php include("assets/inc/slideshow.php");?>
 
         <div class="getThere">
             <h3>How To Get To Dark Island</h3>
