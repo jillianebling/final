@@ -35,7 +35,6 @@ a:active {
     font-size: 20px;
 
     margin: 0px;
-    margin-bottom: -2.2vw;
     padding: 0px;
 
     background: #CDC2AE;
@@ -95,8 +94,9 @@ header{
     color:#f3f2f0;
     font-family: Alegreya;
     grid-area: Head;
+    margin-top: -2.2vw;
     text-align: center;
-    margin-bottom: 0vw;
+    margin-bottom: 2.2vw;
 }
 
 h1{
@@ -124,6 +124,16 @@ a{
 /*Page Content*/
 .content{
     grid-area: Content;
+}
+
+.captcha{
+    background-color: white;
+    margin: 1% 0 1% 9vw;
+    padding: 1%;
+    width: 18%;
+    align-content: center;
+    border: 2px solid black;
+    font-weight: bold; /*so you can see small symbols like ^*/
 }
 
 .formcont{

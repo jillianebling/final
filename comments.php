@@ -1,4 +1,5 @@
-<script src="assets/scripts/clean.js"></script>
+<script src="assets/scripts/validate.js"></script>
+<body onload="captchaGen()">
 <?php
     /*Database init*/
     include("../dbCon.php");
@@ -70,16 +71,25 @@
                 <form class="form" action="comments.php" method="GET" onsubmit="return clean()">
                     First name: <input type="text" id="from" name="from" /><br/>
                     Your Email: <input type="text" id="email" name="email"/><br/>
-                    Comments: <textarea cols=20 rows=5 id="message" name="message"></textarea>
-                    <br/>
-                    <input class="subbutt" type="submit" value="Submit"/>
+                    Comments: <textarea cols=20 rows=5 id="message" name="message"></textarea><br/>
+
+                    <!--Captcha in Form-->
+                    <div id="user-input">
+                        <!--User txt-->
+                        Your Captcha:<input type="text" id="submit"/>
+                    </div>
+
+                    <!--captcha holder-->
+                    <div id="image" class="captcha">
+                    </div>
+                    <input class="subbutt" id="submit" type="submit" value="Submit"/>
+
+                    
                 </form>
-                </br>
-                </br>
-                </br>
+
             </div>
     </div>
-<?php
+    <?php
         include("assets/inc/footer.php");
     ?>
 </body>
