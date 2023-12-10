@@ -75,7 +75,7 @@ footer{
     color: #f3f2f0;
     
     text-align: left;
-    align-content: left;
+    float: left;
     
     width: 100%;
     bottom: 0;
@@ -174,8 +174,8 @@ p{
 
 .map{
     padding: 1vw 5vw 1vw 0vw;
-    width:600;
-    height:450;
+    width:600px;
+    height:450px;
     border:none;
 }
 

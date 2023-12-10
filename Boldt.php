@@ -1,6 +1,9 @@
 <?php
+    //Page Settings
     $pageName = 'Boldt Castle';
-    $cssName = "boldt";    
+    $cssName = "boldt";  
+    
+    //Image Names
     $img1= 'alt="<?php echo $pageName?>" src="assets/media/images/boldtcastle.jpg"';
     $img2= 'alt="<?php echo $pageName?>" src="assets/media/images/boldt2.jpg"';
     $img3= 'alt="<?php echo $pageName?>" src="assets/media/images/boldt3.jpg"';

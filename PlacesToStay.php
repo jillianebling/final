@@ -1,6 +1,10 @@
 <?php
+
+    //Page Settings
     $pageName = 'Places To Stay';
     $cssName = "placestostay";
+
+    //Image Names
     $img1= 'alt="<?php echo $pageName?>" src="assets/media/images/w1.jpg"';
     $img2= 'alt="<?php echo $pageName?>" src="assets/media/images/w2.jpg"';
     $img3= 'alt="<?php echo $pageName?>" src="assets/media/images/w3.jpg"';

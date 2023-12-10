@@ -48,3 +48,5 @@
         <h1>Wellesley Island and Alexandria Bay</h1>
         <h3><?php echo $pageName; ?></h3>
     </header>
+
+    <?php include("assets/inc/slideshow.php");?>

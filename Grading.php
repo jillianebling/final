@@ -1,6 +1,8 @@
 <?php
+    //Page Settings
     $pageName = 'Grading';
     $cssName = "grading";
+    
     include("assets/inc/header.php");
 ?>  
     

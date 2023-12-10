@@ -107,7 +107,7 @@ footer{
     color: #f3f2f0;
     
     text-align: left;
-    align-content: left;
+    float: left;
     
     width: 100%;
     bottom: 0;

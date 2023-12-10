@@ -141,8 +141,8 @@ footer{
     background-color: #354259;
     color: #f3f2f0;
     
-    text-align: left;
-    align-content: left;
+    text-align:left;
+    float: left;
     
     width: 100%;
     bottom: 0;

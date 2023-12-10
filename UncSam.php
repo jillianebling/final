@@ -1,6 +1,10 @@
 <?php
+
+    //Page Settings
     $pageName = "Uncle Sam's Boat Tours";
     $cssName = "uncsam";
+
+    //Image Names
     $img1= 'alt="Wellesley Island Bridge" src="assets/media/images/1000-Islands-Cangeo-8-scaled.jpg"';
     $img2= 'alt="Canoeing on the St. Lawrence" src="assets/media/images/1000-Islands-Cangeo-2-scaled.jpg"';
     $img3= 'alt="Loons on the Water" src="assets/media/images/1000-Islands-Cangeo-9-scaled.jpg"';

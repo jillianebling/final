@@ -1,5 +1,6 @@
 <div class="slidewrap">
 
+<!--Slideshow Images-->
 <div class="slides">
   <img <?php echo $img1; ?>/>
 </div>

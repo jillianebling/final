@@ -1,6 +1,10 @@
 <?php
+
+    //Page Settings
     $pageName = 'Singer Castle';
     $cssName = "singer";
+
+    //Image Names
     $img1= 'alt="<?php echo $pageName?>" src="assets/media/images/singercastle.jpg"';
     $img2= 'alt="<?php echo $pageName?>" src="assets/media/images/singer2.jpg"';
     $img3= 'alt="<?php echo $pageName?>" src="assets/media/images/singer3.jpg"';

@@ -1,4 +1,6 @@
 var captcha; //global
+
+//Validate with JS
 function clean() {
     email = document.getElementById("email").value;
     message = document.getElementById("message").value;
@@ -13,6 +15,7 @@ function clean() {
     if(!validate()){alert("Incorrect Captcha.");return false;}//if captcha wrong
 }
 
+//Create Unique Captcha Code
 function captchaGen() {
     document.getElementById("submit").value = "";
 
@@ -27,6 +30,7 @@ function captchaGen() {
     captcha.innerHTML = newcapt; //update HTML to show the current captcha
 }
 
+//Check if entered captcha is correct
 function validate() {
     var input= document.getElementById("submit").value;
     if (input=== captcha.innerHTML) {

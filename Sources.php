@@ -1,6 +1,9 @@
 <?php
+
+    //Page Settings
     $pageName = 'Sources';
     $cssName = "sources";
+    
     include("assets/inc/header.php");
 ?>  
     

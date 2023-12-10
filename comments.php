@@ -13,6 +13,7 @@
         return substr($str,0,$length);
     }
 
+    /*More Validations*/
     if(!empty($_GET['from']) && !empty($_GET['message']) && !empty($_GET['email'])){
         //sanitize
         $from=sanitize($_GET['from']);
