@@ -112,7 +112,6 @@ body{ /*Formatting for Header and Nav*/
     display: grid;
     grid-template-areas:"Nav Nav Nav" 
                         "Head Head Head"
-                        "Img Img Img"
                         "Content Content Content"
                         "Foot Foot Foot";
 }
@@ -160,27 +159,22 @@ a{
 .content{
     grid-area: Content;
 }
-.naturepic img{
-    width: 100vw;
-    height: 45vw;
-    grid-area: Img;
- 
-}
 .overview{
-    font-size:22px;
+    font-size:20px;
     line-height: 150%;
     display:flex;
-    gap: 3vw;
+    gap: 1vw;
 }
 
 p{
-    margin: 3vw 0vw 0vw 3vw;
+    margin: 3vw 5vw 0vw 3vw;
     font-family: Antic;
 }
 
 .map{
-    width: 30vw;
-    padding: 3vw 3vw 3vw 0vw;
+    width: 50vw;
+    padding: 1vw 5vw 1vw 0vw;
+    border:none;
 }
 
 .map2{
