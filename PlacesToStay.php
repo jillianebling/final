@@ -1,6 +1,13 @@
 <?php
     $pageName = 'Places To Stay';
     $cssName = "placestostay";
+    $img1= 'alt="<?php echo $pageName?>" src="assets/media/images/w1.jpg"';
+    $img2= 'alt="<?php echo $pageName?>" src="assets/media/images/w2.jpg"';
+    $img3= 'alt="<?php echo $pageName?>" src="assets/media/images/w3.jpg"';
+    $img4='alt="<?php echo $pageName?>" src="assets/media/images/wildernesspano.jpg"';
+    $img5= 'alt="<?php echo $pageName?>" src="assets/media/images/1000-Islands-Cangeo-9-scaled.jpg"';
+    $img6= 'alt="<?php echo $pageName?>" src="assets/media/images/1000-Islands-Cangeo-2-scaled.jpg"';
+    $img7= 'alt="<?php echo $pageName?>" src="assets/media/images/1000-Islands-Cangeo-8-scaled.jpg"';
     include("assets/inc/header.php");
 ?>  
     

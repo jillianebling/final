@@ -1,37 +1,40 @@
 <div class="slidewrap">
 
 <div class="slides">
-  <img alt="Wellesley Island Bridge" src="assets/media/images/1000-Islands-Cangeo-8-scaled.jpg"/>
+  <img <?php echo $img1; ?>/>
 </div>
 
 <div class="slides">
-  <img alt="Canoeing on the St. Lawrence" src="assets/media/images/1000-Islands-Cangeo-2-scaled.jpg">
+  <img <?php echo $img2; ?>/>
 </div>
 
 <div class="slides">
-  <img alt="Loons on the Water" src="assets/media/images/1000-Islands-Cangeo-9-scaled.jpg">
+  <img <?php echo $img3; ?>/>
 </div>
 
 <div class="slides">
-  <img alt="Docks at A-Bay" src="assets/media/images/abaydocks.jpg"/>
+  <img <?php echo $img4; ?>/>
 </div>
 
 <div class="slides">
-  <img alt="Boldt Castle" src="assets/media/images/boldtcastle.jpg"/>
+  <img <?php echo $img5; ?>/>
 </div>
 
 <div class="slides">
-  <img alt="Forest on Wellesley Island" src="assets/media/images/wildernesspano.jpg"/>
+  <img <?php echo $img6; ?>/>
 </div>
 
 <div class="slides">
-  <img alt="Singer Castle" src="assets/media/images/singercastle.jpg"/>
+  <img <?php echo $img7; ?>/>
 </div>
 
 <a class="prev" onclick="changeSlide(-1)">❮</a>
 <a class="next" onclick="changeSlide(1)">❯</a>
 
-<script src="assets/scripts/slideshow.js"></script>
+<style>
+  @media screen and (max-width: 600px) {
+    .prev, .next{display:none;}
+  }
+</style>
 
-</body>
-</html>
+<script src="assets/scripts/slideshow.js"></script>

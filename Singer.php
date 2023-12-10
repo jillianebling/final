@@ -1,6 +1,13 @@
 <?php
     $pageName = 'Singer Castle';
     $cssName = "singer";
+    $img1= 'alt="<?php echo $pageName?>" src="assets/media/images/singercastle.jpg"';
+    $img2= 'alt="<?php echo $pageName?>" src="assets/media/images/singer2.jpg"';
+    $img3= 'alt="<?php echo $pageName?>" src="assets/media/images/singer3.jpg"';
+    $img4='alt="<?php echo $pageName?>" src="assets/media/images/singer4"';
+    $img5= 'alt="<?php echo $pageName?>" src="assets/media/images/singer5"';
+    $img6= 'alt="<?php echo $pageName?>" src="assets/media/images/singer6"';
+    $img7= 'alt="<?php echo $pageName?>" src="assets/media/images/singer7"';
     include("assets/inc/header.php");
 ?>  
 

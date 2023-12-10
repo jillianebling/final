@@ -95,7 +95,7 @@ header{
     font-family: Alegreya;
     grid-area: Head;
     text-align: center;
-    margin-top: -1.5vw;
+    margin-top: -1.7vw;
 }
 
 h1{
@@ -122,6 +122,15 @@ a{
 }
 
 /*Page Content*/
+p.date{
+    font-weight:lighter;
+    display:inline;
+
+    font-size: 12px;
+
+    margin: 0 0 0 0;
+}
+
 .content{
     grid-area: Content;
 }
@@ -155,32 +164,19 @@ a{
 
     margin-left: 9vw;
 }
-
-.date{
-    font-weight:lighter;
-    display:inline;
-
-    font-size: 12px;
-
-    margin: 0 0 0 0;
-}
-
-.overview{
-    font-size:22px;
-    line-height: 150%;
-    display:flex;
-    gap: 3vw;
-}
-
-p{
-    margin: 3vw 0vw 0vw 3vw;
-    font-family: Antic;
-}
 /*Responsive Design*/
 
 /*Tablets*/
 @media screen and (max-width: 600px) {
-    .content p{
-        margin: 3vw 5vw 3vw 5vw;
+    .list,.formcont{
+        float:none;
+        margin: 5vw 5vw 5vw 5vw;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+    }
+
+    .formcont{
+        padding-left: 15%;
     }
 }

@@ -1,6 +1,13 @@
 <?php
     $pageName = 'Alexandria Bay';
     $cssName = "abay";
+    $img1= 'alt="Wellesley Island Bridge" src="assets/media/images/1000-Islands-Cangeo-8-scaled.jpg"';
+    $img2= 'alt="Canoeing on the St. Lawrence" src="assets/media/images/1000-Islands-Cangeo-2-scaled.jpg"';
+    $img3= 'alt="Loons on the Water" src="assets/media/images/1000-Islands-Cangeo-9-scaled.jpg"';
+    $img4='alt="Docks at A-Bay" src="assets/media/images/abaydocks.jpg"';
+    $img5= 'alt="Boldt Castle" src="assets/media/images/boldtcastle.jpg"';
+    $img6= 'alt="Forest on Wellesley Island" src="assets/media/images/wildernesspano.jpg"';
+    $img7= 'alt="Singer Castle" src="assets/media/images/singercastle.jpg"';
     include("assets/inc/header.php");
 ?>
 

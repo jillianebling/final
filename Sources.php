@@ -32,6 +32,22 @@
                 <li><a href="https://www.campadk.com/campsitephotos/images/campmap-wellesleyisland2015.gif">Places to Stay - Wellesley Island Map/Right of Page - Unspecified</a></li>
                 <li><a href="https://canadiangeographic.ca/articles/nine-things-to-discover-in-the-thousand-islands/#&gid=1&pid=5">Home - 1000 Island Bridge at Sunset/Header - Unspecified</a></li>
                 <li><a href="https://1.bp.blogspot.com/-RbtpJzPVvWI/YOmylGaVCLI/AAAAAAAADGc/_-4EsiWe2k8iwo1xJ2bXB0wg4gnxYgwuQCLcBGAsYHQ/s2048/crhc%2Bislander.JPG">Alexandria Bay - Old Boat Photo/Right of Page - Unspecified</a></li>
+                <li><a href="https://hikingthetrailtoyesterday.files.wordpress.com/2017/01/1wellesley-island-cover-full-sizedsc01387-3.jpg"></a>All Under 'At The Parks' slideshow - rock stacking sculpture - unspecified</li>
+                <li><a href="https://www.rothgalleries.com/img-get/I0000HboS49hnx24/s/1200/I0000HboS49hnx24.jpg"></a>All Under 'At The Parks' slideshow - Sunset on the Lake - unspecified</li>
+                <li><a href="https://www.naturallyamazing.com/americasparks/126202325118PM.jpg"></a>All Under 'At The Parks' slideshow - Lighthouse - unspecified</li>
+                <li><a href="https://media.cnn.com/api/v1/images/stellar/prod/120911044605-castles-boldt-castle.jpg?q=w_3300,h_2400,x_0,y_0,c_fill"></a>All in 'Boldt Castle' slideshow - Boldt castle arial shot - unspecified</li>
+                <li><a href="https://www.boldtcastle.com/visitorinfo/wp-content/uploads/2018/08/purchaseonlinetickets.jpg"></a>All in 'Boldt Castle' slideshow - Boldt Castle back arial shot - unspecified</li>
+                <li><a href="https://www.greatlakescruises.com/uploads/1/0/6/4/106440933/alexandra-boldt-2_orig.jpg"></a>All in 'Boldt Castle' slideshow - Boldt Yacht House Exterior - unspecified</li>
+                <li><a href="https://live.staticflickr.com/65535/51051159902_557292784d_b.jpg"></a>All in 'Boldt Castle' slideshow - Boldt Castle and Nearby House - unspecified</li>
+                <li><a href="https://www.tripsavvy.com/thmb/wF0LJFsksTcD798vWznAVPQ6ry4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-533611420-57ab50853df78cf45997dd67.jpg"></a>All in 'Boldt Castle' slideshow - Back of Boldt Powerhouse - unspecified</li>
+                <li><a href="https://www.1000islandsharborhotel.com/images/jqg_1600101216.jpg"></a>All in 'Boldt Castle' slideshow - Boldt Castle/River arial shot - unspecified</li>
+                <li><a href="https://www.1000islandscruises.com/wp-content/uploads/2020/03/WildCat-at-Singer-Castle.jpg"></a>Singer Castle slideshow - Singer and Wildcat boat - unspecified</li>
+                <li><a href="https://www.singercastle.com/wp-content/uploads/2021/03/The_Royal_Suite_1500_630.jpg"></a>Singer Castle slideshow - Singer Castle Suite - unspecified</li>
+                <li><a href="https://www.singercastle.com/wp-content/uploads/2021/03/Singer_Castle_on_Dark_Island_aerial_1500_630.jpg"></a>Singer Castle slideshow - Singer Castle Arial Shot - unspecified</li>
+                <li><a href="https://www.singercastle.com/wp-content/uploads/2021/03/singer_castle_photos_1500_430-1030x295.jpg"></a>Singer Castle slideshow - Singer Castle Water Shot - unspecified</li>
+                <li><a href="https://www.vladi-private-islands.de/fileadmin/_processed_/1/b/csm_singer_castle_on_dark_island_019_4a03bde664.jpg"></a>Singer Castle slideshow - Singer Castle Dining Area - unspecified</li>
+                <li><a href="https://cdn.fstoppers.com/styles/xlarge/s3/photos/1656/02/02/7f79d5891037b389bebf2044cd021177.jpg"></a>Singer Castle slideshow - Moody Singer Castle Court Yard - 2017</li>
+
             </ul>
         </div>  
 

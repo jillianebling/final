@@ -1,6 +1,13 @@
 <?php
     $pageName = 'Boldt Castle';
-    $cssName = "boldt";
+    $cssName = "boldt";    
+    $img1= 'alt="<?php echo $pageName?>" src="assets/media/images/boldtcastle.jpg"';
+    $img2= 'alt="<?php echo $pageName?>" src="assets/media/images/boldt2.jpg"';
+    $img3= 'alt="<?php echo $pageName?>" src="assets/media/images/boldt3.jpg"';
+    $img4='alt="<?php echo $pageName?>" src="assets/media/images/boldt4"';
+    $img5= 'alt="<?php echo $pageName?>" src="assets/media/images/boldt5"';
+    $img6= 'alt="<?php echo $pageName?>" src="assets/media/images/boldt6"';
+    $img7= 'alt="<?php echo $pageName?>" src="assets/media/images/boldt7"';
     include("assets/inc/header.php");
 ?>  
 

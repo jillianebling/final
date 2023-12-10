@@ -136,7 +136,7 @@ div h3{
     font-family: Antic;
 }
 
-p{
+p, .list{
     margin: .5vw 15vw .5vw 5vw;
     font-family: Antic;
     font-size: 20px;

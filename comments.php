@@ -13,7 +13,7 @@
         return substr($str,0,$length);
     }
 
-    if(!empty($_GET['from']) && !empty($_GET['message']) && !empty($_GET['email']) && !empty($_GET['captcha'])){
+    if(!empty($_GET['from']) && !empty($_GET['message']) && !empty($_GET['email'])){
         //sanitize
         $from=sanitize($_GET['from']);
         $message=sanitize($_GET['message']);
@@ -83,10 +83,7 @@
                     <div id="image" class="captcha">
                     </div>
                     <input class="subbutt" id="submit" type="submit" value="Submit"/>
-
-                    
                 </form>
-
             </div>
     </div>
     <?php
