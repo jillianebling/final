@@ -167,7 +167,6 @@ footer p{
     font-size:22px;
     line-height: 150%;
     display:flex;
-    gap: 3vw;
 }
 
 p{
@@ -177,7 +176,7 @@ p{
 
 .map{
     width: 30vw;
-    padding: 3vw 3vw 3vw 0vw;
+    padding: 3vw 3vw 3vw 3vw;
 }
 
 a{

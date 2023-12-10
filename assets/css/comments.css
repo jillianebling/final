@@ -94,9 +94,8 @@ header{
     color:#f3f2f0;
     font-family: Alegreya;
     grid-area: Head;
-    margin-top: -2.2vw;
     text-align: center;
-    margin-bottom: 2.2vw;
+    margin-top: -1.5vw;
 }
 
 h1{
@@ -113,6 +112,7 @@ body{ /*Formatting for Header and Nav*/
     display: grid;
     grid-template-areas:"Nav Nav Nav" 
                         "Head Head Head"
+                        "Img Img Img"
                         "Content Content Content"
                         "Foot Foot Foot";
 }
