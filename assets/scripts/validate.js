@@ -19,21 +19,21 @@ function clean() {
 function captchaGen() {
     document.getElementById("submit").value = "";
 
-    captcha = document.getElementById("image");
-    var newcapt = "";
+    captcha=document.getElementById("image");
+    var newcapt="";
 
-    var charList ="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz123456789!@#$%^&*"; //exclude 0 bc its hard to distinguish from O
+    var charList="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz123456789!@#$%^&*"; //exclude 0 bc its hard to distinguish from O
 
-    for (let i= 1; i<5;i++) {
-        newcapt += charList.charAt(Math.random() * charList.length);
+    for (let i=1;i<5;i++) {
+        newcapt+=charList.charAt(Math.random() * charList.length);
     }
-    captcha.innerHTML = newcapt; //update HTML to show the current captcha
+    captcha.innerHTML=newcapt; //update HTML to show the current captcha
 }
 
 //Check if entered captcha is correct
 function validate() {
-    var input= document.getElementById("submit").value;
-    if (input=== captcha.innerHTML) {
+    var input=document.getElementById("submit").value;
+    if (input===captcha.innerHTML) {
         captchaGen();
         return true;
     }

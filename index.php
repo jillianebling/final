@@ -17,6 +17,8 @@
 
     
 ?>  
+
+    <script src="assets/scripts/currency.js"></script>
     <!--Content-->
     <div class="content">
     <?php include("assets/inc/slideshow.php");?>
@@ -28,8 +30,26 @@
             </p>
             <iframe class='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45667.55387368979!2d-75.9884135!3d44.32593985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccd478564e99d9d%3A0xa698248823c50752!2sWellesley%20Island!5e0!3m2!1sen!2sus!4v1702176020489!5m2!1sen!2sus" width="600" height="450" style="border:0;"></iframe>        
     </div>
-                <iframe class='map2' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45667.55387368979!2d-75.9884135!3d44.32593985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccd478564e99d9d%3A0xa698248823c50752!2sWellesley%20Island!5e0!3m2!1sen!2sus!4v1702176020489!5m2!1sen!2sus" style="border:0;"></iframe>        
 
+    <div class="currency" method="GET" onsubmit="convert(event)">
+        <h4>Not From the Area?</h4>
+        <h5>Check Your Spending Power</h5>
+        <form>
+            <label for="currency">Select Curency:</label>
+            <select id="money" name="money">
+                <option value="CAD">C$</option>
+                <option value="AUD">A$</option>
+                <option value="¥">¥</option>
+                <option value="€">€</option>
+                <option value="£">£</option>
+                <option value="₱">₱</option>
+            </select>
+            <input class="input" type="text" id="amnt" name="amnt" maxlength="5" placeholder="Enter An Amount"/>
+            <br/><input class="subbutt" id="submit" type="submit" value="Convert"/>
+            <div class="resHolder" id="resHolder"></div>
+        </form>
+    </div>
+        <iframe class='map2' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45667.55387368979!2d-75.9884135!3d44.32593985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccd478564e99d9d%3A0xa698248823c50752!2sWellesley%20Island!5e0!3m2!1sen!2sus!4v1702176020489!5m2!1sen!2sus" style="border:0;"></iframe>        
     <?php
         include("assets/inc/footer.php");
     ?>

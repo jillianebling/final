@@ -164,7 +164,7 @@ a{
     line-height: 150%;
     display:flex;
     gap: 1vw;
-    margin-bottom: 5vw;
+    margin-bottom:-6vw;
 }
 
 p{
@@ -182,6 +182,20 @@ p{
 .map2{
     display:none;
 }
+/*Currency Converter*/
+.subbutt{
+    background-color: #5575ad;
+    color: #f3f2f0;
+    font-family: Antic;
+    margin-left: 5vw;
+}
+
+.currency{
+    align-items: center;
+    font-family: Antic;
+    padding: 0vw 20vw 2vw 20vw;
+
+}
 
 /*Responsive Design*/
 
@@ -192,7 +206,13 @@ p{
     }
     .map2{
         display: block;
+        padding: 0vw 0vw 5vw 12vw;
     }
+
+    .currency{
+        padding-left: 25vw;
+    }
+
     .content p{
         margin: 3vw 5vw 3vw 5vw;
     }
